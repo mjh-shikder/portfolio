@@ -80,7 +80,7 @@ nav li a {
 
 /* Header  */
 .header {
-    background-image: url(../images/developer.png), url(/images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 
@@ -168,11 +168,12 @@ main section {
 }
 .experience-sub-title {
     font-size: 20px;
-    font-weight:600 ;
+    font-weight: 600;
     margin-bottom: 20px;
+    color: #757575;
 }
 
-.experience-description, .experience-sub-title {
+.experience-description {
     font-weight: 400;
     color: #757575;
 }
@@ -196,7 +197,6 @@ footer{
 .footer-column {
     width: 50%;
 }
-
 footer input[type="text"], footer input[type="email"], footer textarea {
 height: 64px;
 width: 100%;
@@ -208,4 +208,9 @@ margin-bottom: 24px;
 border: none;
 
 }
+
+footer textarea {
+    height: 150px;
+}
+
 
