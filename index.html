@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
-<!-- font awesome link down below -->
- <script src="https://kit.fontawesome.com/ebe6a4855b.js" crossorigin="anonymous"></script>
+    <!-- font awesome link down below -->
+    <script src="https://kit.fontawesome.com/ebe6a4855b.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -21,8 +21,8 @@
         <nav>
             <h3 class="nav-title">Juba<span class="text-contrast">i</span>r</h3>
             <ul>
-                <li><a class="text-color" href="">Portfolio</a></li>
-                <li><a class="text-color" href="">Blog</a></li>
+                <li id="portfolio"><a class="text-color" href="">Portfolio</a></li>
+                <li id="blog"><a class="text-color" href="">Blog</a></li>
                 <li><a class="text-color" href=""><button class="btn-primary">Hire Me</button></a></li>
             </ul>
         </nav>
@@ -31,8 +31,8 @@
                 <h4 class="banner-greetings text-color">Hi, I am </h4>
                 <h2 class="banner-title">Md Jubair Hossain</h2>
                 <p class="banner-description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum architecto suscipit dolorum nihil
-                    eum atque at modi deleniti. Culpa necessitatibus, corporis rerum obcaecati adipisci cumque?
+                    A creative 3D animator turned aspiring full-stack web developer. With over 5 years of experience as
+                    a Level 2 Fiverr seller,
                 </p>
                 <button class="btn-primary"><i class="fa-solid fa-arrow-down"></i> Download CV</button>
                 <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
@@ -45,16 +45,18 @@
         <section class="about bg-color">
             <h3 class="section-title">About Me</h3>
             <p class="section-description">
-                I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick
-                websites that provide real value to the end user. Thousands of clients have procured exceptional results
-                while working with me. Delivering work within time and budget which meets clients requirements in our
-                matter.
+                I’ve specialized in crafting high-quality 3D spinning enamel pin and logo animations for clients around
+                the world.
+
+                Now, I’m expanding my skill set into full-stack web development, diving deep into building dynamic,
+                responsive websites using modern technologies. My goal is to combine visual storytelling with functional
+                web solutions merging creativity with code.
             </p>
             <div class="about-items">
                 <!-- .about-item*4>p.item-title+p.item-descrilption -->
                 <div class="about-item">
                     <p class="item-title">Name</p>
-                    <p class="item-description">Jubair</p>
+                    <p class="item-description">Md Jubair Hossain</p>
                 </div>
                 <div class="about-item">
                     <p class="item-title">Email</p>
@@ -74,11 +76,10 @@
 
         <!-- What I do Section Start -->
         <section class="skills">
-            <h3 class="section-title text-center">What I Do</h3>
+            <h3 class="section-title text-center">What I am Learning Now </h3>
             <p class="section-description text-center">
-                I have more than 10 years experience building software for clients all over the world. Below is a quick
-                overview of my main technical skill sets and technologies i use. Want to find out more about my
-                experience? Check out my online resume and project portfolio.
+                I'm currently diving into full-stack web development, focusing on both front-end and back-end
+                technologies to build modern, dynamic web applications.
             </p>
             <!-- Skills Container Start -->
             <div class="skills-container">
@@ -87,26 +88,30 @@
                 <div class="skill">
                     <img src="./images/icons/js.png" alt="">
                     <h4 class="skill-title">Vanilla JavaScript</h4>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="skill-description">A versatile, high-level programming language that runs both in the
+                        browser and on the server. I'm learning how to use JavaScript to make websites interactive,
+                        handle user input, manipulate the DOM, and fetch data dynamically.</p>
                 </div>
                 <div class="skill">
                     <img src="./images/icons/react.png" alt="">
                     <h4 class="skill-title">React</h4>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="skill-description">List skill/A powerful front-end JavaScript library developed by Meta.
+                        React allows me to build fast, dynamic user interfaces using reusable components. I’m learning
+                        about hooks, state management, and how to build single-page applications (SPAs)</p>
                 </div>
                 <div class="skill">
                     <img src="./images/icons/nodejs.png" alt="">
                     <h4 class="skill-title">Node.js</h4>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="skill-description">A JavaScript runtime that lets me build server-side applications. With
+                        Node.js, I’m learning to handle server requests, create RESTful APIs, manage routing, and build
+                        the logic behind a web application.</p>
                 </div>
                 <div class="skill">
                     <img src="./images/icons/mongo.png" alt="">
                     <h4 class="skill-title">Mongo DB</h4>
-                    <p class="skill-description">List skill/technologies here. You can change the icon above to any of
-                        the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="skill-description">A NoSQL database that stores data in flexible, JSON-like documents. I'm
+                        learning how to structure and query data using MongoDB, and how to connect it with Node.js for
+                        storing and retrieving information in real-time applications.</p>
                 </div>
             </div>
         </section>
@@ -121,55 +126,83 @@
                 <div class="resume-column">
                     <h3 class="resume-column-title">My Education</h3>
                     <div class="experience">
-                        <h4 class="experience-title">Master in Computer Engineering</h4>
-                        <h5 class="experience-sub-title">Harvard University / 2015 - 2017</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        <h4 class="experience-title">Honours in Social Work</h4>
+                        <h5 class="experience-sub-title">National University 2025 - Current</h5>
+                        <div class="experience-description">I am currently pursuing my Honours in Social Work at
+                            National University.
                         </div>
                     </div>
                     <hr>
                     <div class="experience">
-                        <h4 class="experience-title">Master in Computer Engineering</h4>
-                        <h5 class="experience-sub-title">Harvard University / 2015 - 2017</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        <h4 class="experience-title">Training in Cyber Security and Ethical Hacking</h4>
+                        <h5 class="experience-sub-title">Creative It Institute </h5>
+                        <div class="experience-description">
+                            I completed a 6 months comprehensive training program in Cyber Security and Ethical Hacking
+                            at Creative It Institute, where I learned about network security, penetration testing, and
+                            ethical hacking techniques.
                         </div>
                     </div>
                     <hr>
                     <div class="experience">
-                        <h4 class="experience-title">Master in Computer Engineering</h4>
-                        <h5 class="experience-sub-title">Harvard University / 2015 - 2017</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        <h4 class="experience-title">Training In Web penetration Testing</h4>
+                        <h5 class="experience-sub-title">Cyber Bangla Institute</h5>
+                        <div class="experience-description">
+                            I completed a 6 months training program in Web Penetration Testing at Cyber Bangla Institute,
+                            where I learned about Advance web application security, vulnerability assessment, and penetration
+                            testing methodologies.
+
                         </div>
                     </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Training In Full Stuck Web Development</h4>
+                        <h5 class="experience-sub-title">programming Hero 2025 - Current</h5>
+                        <div class="experience-description">
+                            I am currently enrolled in a Full Stack Web Development course at Programming Hero, where I
+                            am learning to build dynamic, responsive web applications using modern technologies like
+                            React, Node.js, and MongoDB.
+
+                        </div>
+                    </div>
+
+                    <!-- Edecation Ends -->
                 </div>
 
                 <div class="resume-column">
                     <h3 class="resume-column-title">My Experience</h3>
                     <div class="experience">
-                        <h4 class="experience-title">Sr. Front End Developer</h4>
-                        <h5 class="experience-sub-title">Apple Inc/2020 - current</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        <h4 class="experience-title">Graphic Desinger</h4>
+                        <h5 class="experience-sub-title">Freelance Graphic Designer 2020 - 2021 </h5>
+                        <div class="experience-description">I worked as a freelance graphic designer for a year.
+                                                 
                         </div>
                     </div>
                     <hr>
                     <div class="experience">
-                        <h4 class="experience-title">Jr. Font End Developer</h4>
-                        <h5 class="experience-sub-title">Dribbble Inc / 2018 - 2022</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        <h4 class="experience-title">3D animator</h4>
+                        <h5 class="experience-sub-title">Fiverr Marketplace 2022 - 2025 </h5>
+                        <div class="experience-description">
+                            I have been working as a 3D animator on Fiverr for over 3 years, specializing in creating
+                            high-quality 3D spinning enamel pin and logo animations for clients worldwide.
                         </div>
                     </div>
                     <hr>
                     <div class="experience">
-                        <h4 class="experience-title">HTML Developer</h4>
-                        <h5 class="experience-sub-title">Adobe Inc / 2017 - 2018</h5>
-                        <div class="experience-description">List skill/technologies here. You can change the icon above
-                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        <h4 class="experience-title">Video Editor</h4>
+                        <h5 class="experience-sub-title">Freelance and Local Market 2021 - 2023</h5>
+                        <div class="experience-description">I have worked as a freelance video editor and also in the local market, where I edited various types of videos including promotional, educational, and personal projects.
                         </div>
                     </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Web Developer</h4>
+                        <h5 class="experience-sub-title">Learning Right Now</h5>
+                        <div class="experience-description">
+                            I am currently learning full-stack web development, focusing on both front-end and back-end
+                            technologies to build modern, dynamic web applications.
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <!-- Resume Container End -->
@@ -191,13 +224,14 @@
                 Monday through Friday.</p>
 
             <div>
-                <a target="_blank" rel="noopener" href="https://www.facebook.com/mjhshikder/"><img src="./images/icons/facebook.png"
-                        alt=""></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/mjhshikder/"><img
+                        src="./images/icons/facebook.png" alt=""></a>
 
-                <a target="_blank" rel="noopener" href="https://www.instagram.com/mjh_shikder/"><img src="./images/icons/insta.png"
-                        alt=""></a>
+                <a target="_blank" rel="noopener" href="https://www.instagram.com/mjh_shikder/"><img
+                        src="./images/icons/insta.png" alt=""></a>
 
-                <a target="_blank" rel="noopener" href="https://x.com/mjh_shikder"><img src="../images/icons/twitter.png" alt=""></a>
+                <a target="_blank" rel="noopener" href="https://x.com/mjh_shikder"><img src="./images/icons/twitter.png"
+                        alt=""></a>
             </div>
 
         </div>
@@ -222,3 +256,4 @@
 </body>
 
 </html>
+

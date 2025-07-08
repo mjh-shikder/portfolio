@@ -10,6 +10,7 @@
 .bg-color {
     background-color: #FFF8F3;
 }
+
 .text-contrast {
     color: #FD6E0A;
 }
@@ -18,25 +19,38 @@
     color: #474747;
 }
 
+.text-color:hover {
+    color: #FD6E0A;
+}
+
+
+
 .btn-primary {
-  background-color: #FD6E0A;  
-  font-weight: bold;
-  color: white;
-  padding: 18px 35px;
-  border-radius: 8px;
-  border: none;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e65c00;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px #464646;
 }
 
 .section-title {
     font-size: 35px;
     font-weight: bold;
-    color: #181818;
+    color: #2b2b2b;
 }
 
 .section-description {
     font-size: 18px;
     font-weight: 400;
-    color: #181818;
+    color: #535353;
+
 
 }
 
@@ -74,7 +88,7 @@ nav ul li {
 nav li a {
     text-decoration: none;
     font-size: 20px;
-    
+
 }
 
 
@@ -88,7 +102,7 @@ nav li a {
 
 /* banner styles  */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
@@ -98,20 +112,21 @@ nav li a {
     max-width: 580px;
 }
 
-.banner-greeting {
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
-    
+
+
 }
 
 .banner-title {
     font-size: 85px;
     font-weight: 800;
-    
+
 }
 
 .banner-profile {
-    width: 580px;
+    width: 790px;
 
 }
 
@@ -130,33 +145,58 @@ main section {
 
 /* about styles */
 .about {
-  border-radius: 10px;  
-  padding: 130px 150px;
-  text-align: center;
-  
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
 }
 
 .about-items {
     display: flex;
     justify-content: space-around;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
 }
 
+.item-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #FD6E0A;
+
+}
 .item-description {
     font-weight: 600;
 
 }
 
 /* Skill Section start */
+.skill-title {
+    color: #535353;
+}
+
+.skill-description {
+    font-weight: 400;
+    color: #525252;
+    
+}
 .skills-container {
     display: flex;
     gap: 24px;
-  
+
 }
 
 .skill {
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
+    width: 18%;
+}
+
+.skill:hover {
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.2);
+    
 }
 
 
@@ -166,6 +206,21 @@ main section {
     gap: 24px;
 
 }
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #464646;
+    margin-bottom: 20px;
+}
+
+.experience-title {
+    font-size: 20px;
+    color: #474747;
+}
+
+
+
 .experience-sub-title {
     font-size: 20px;
     font-weight: 600;
@@ -187,30 +242,31 @@ main section {
 }
 
 /* Footer styles */
-footer{
+footer {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
-   
+
 }
 
 .footer-column {
     width: 50%;
 }
-footer input[type="text"], footer input[type="email"], footer textarea {
-height: 64px;
-width: 100%;
-border-radius: 9px;
-background-color: white;
-display: block;
-padding: 10px 20px;
-margin-bottom: 24px;
-border: none;
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    width: 100%;
+    border-radius: 9px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 
 }
 
 footer textarea {
     height: 150px;
 }
-
-
