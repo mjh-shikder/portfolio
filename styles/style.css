@@ -8,25 +8,28 @@
 
 /* shared style  */
 .bg-color {
-    background-color: #FFF8F3;
+    background-color: #f6fbff;
 }
 
-.text-contrast {
-    color: #FD6E0A;
-}
+/* .text-contrast {
+    color: #45b0fc;
+} */
 
 .text-color {
     color: #474747;
 }
 
 .text-color:hover {
-    color: #FD6E0A;
+    color: #45b0fc;
 }
 
+body {
 
+    margin: 0 auto;
+}
 
 .btn-primary {
-    background-color: #FD6E0A;
+    background-color: #45b0fc;
     font-weight: bold;
     color: white;
     padding: 18px 35px;
@@ -35,10 +38,49 @@
 }
 
 .btn-primary:hover {
-    background-color: #e65c00;
+    background-color: #388ecc;
     cursor: pointer;
-    box-shadow: 0px 0px 10px 0px #464646;
+    transform: scale(1.05);
+    /* box-shadow: 0px 0px 10px 0px #464646; */
 }
+
+.btn-cv{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #45b0fc;
+    padding: 18px 35px;
+    border-radius: 8px;
+    border: solid #45b0fc 1px;
+    margin-right: 2px;
+}
+
+.btn-cv:hover{
+    /* background-color: #388ecc; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.social-container {
+   
+}
+
+.btn-social {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #2b2b2b;
+    padding: 9px 10px;
+    border-radius: 8px;
+    border: 1px solid #2b2b2b;
+}
+
+.btn-social:hover {
+    background-color: #1f1f1f;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 .section-title {
     font-size: 35px;
@@ -60,15 +102,16 @@
 
 /* nav styles */
 nav {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
 }
 
-.nav-title {
-    font-weight: 800;
-    font-size: 45px;
+.nav-logo {
+    width: 100px;
+
 }
 
 nav ul {
@@ -79,6 +122,11 @@ nav ul {
 /* nav h3 span {
     color: #FD6E0A;
 } */
+
+.jubair {
+    color: #45b0fc;
+
+}
 
 nav ul li {
     list-style: none;
@@ -94,9 +142,10 @@ nav li a {
 
 /* Header  */
 .header {
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-image: url(../images/mjh-shikder-text.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+
 
 }
 
@@ -121,7 +170,7 @@ nav li a {
 
 .banner-title {
     font-size: 85px;
-    font-weight: 800;
+    font-weight: 00;
 
 }
 
@@ -161,14 +210,21 @@ main section {
 
 .item-title {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 10px;
-    color: #FD6E0A;
+    color: #45b0fc;
 
 }
-.item-description {
-    font-weight: 600;
 
+.item-description {
+    font-weight: 400;
+    color: #3a3a3a;
+
+}
+
+.item-description:hover {
+    transform: scale(1.1);
+    font-weight: 650;
 }
 
 /* Skill Section start */
@@ -179,8 +235,9 @@ main section {
 .skill-description {
     font-weight: 400;
     color: #525252;
-    
+
 }
+
 .skills-container {
     display: flex;
     gap: 24px;
@@ -192,13 +249,14 @@ main section {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
     width: 18%;
-    /* flex: 1; cursor: pointer; */
+    margin-top: 35px;
+
 }
 
 .skill:hover {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.2);
-    /* flex: 3; */
-    
+    transform: scale(1.1);
+
 }
 
 
@@ -272,4 +330,3 @@ footer textarea {
 footer textarea {
     height: 150px;
 }
-
