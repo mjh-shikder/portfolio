@@ -21,16 +21,20 @@
 
 
 </head>
+<!-- Body -->
 
 <body class="open-sans-normal">
     <header class="header bg-color">
         <nav>
             <a href="./index.html"><img class="nav-logo" src="./images/mjh-logo-blue.svg" alt="Nav Logo"></a>
             <ul>
-                <li id="portfolio"><a class="text-color" href="">Portfolio</a></li>
-                <li id="blog"><a class="text-color" href="">Blog</a></li>
+                <li id="portfolio"><a onclick="clicking()" class="text-color" href="./index.html">Portfolio</a>
+                </li>
+                <li id="blog"><a onclick="clicking()" class="text-color" href="">Blog</a>
+                </li>
                 <li><a target="_blank" rel="noopener" class="text-color"
-                        href="https://www.fiverr.com/mjh_shikder"><button class="btn-primary">Hire Me</button></a></li>
+                        href="https://www.fiverr.com/mjh_shikder"><button class="btn-primary">Hire Me</button></a>
+                </li>
             </ul>
         </nav>
         <div class="banner">
@@ -41,7 +45,7 @@
                     A creative 3D animator turned aspiring full-stack web developer. With over 5 years of experience as
                     a Level 2 Fiverr seller.
                 </p>
-                <button class="btn-cv"><i class="fa-solid fa-arrow-down"></i> Download CV</button>
+                <button onclick="clicking()" class="btn-cv"><i class="fa-solid fa-arrow-down"></i> Download CV</button>
                 <button class="btn-primary"><i class="fa-solid fa-phone"></i> Contact</button>
                 <br> <br>
 
@@ -246,7 +250,8 @@
             <!-- Resume Container End -->
 
             <div class="resume-dn-btn text-center">
-                <button class="btn-primary"><i class="fa-solid fa-arrow-down"></i> Download CV</button>
+                <button onclick="clicking()" class="btn-primary"><i class="fa-solid fa-arrow-down"></i> Download
+                    CV</button>
             </div>
 
 
@@ -296,15 +301,22 @@
 
                 <textarea name="" id="" cols="30" rows="20" placeholder="Message"></textarea>
 
-                <input class="btn-primary" type="button" value="Submit">
+                <button onclick="clicking()" class="btn-primary">Submit
+                </button>
             </form>
 
         </div>
     </footer>
 
     <!-- Footer End -->
+    <!-- Java Script -->
+    <script>
+
+        function clicking() {
+            alert("Thanks for your Interest. This option is not added yet.")
+        }
+    </script>
 
 </body>
 
 </html>
-
