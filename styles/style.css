@@ -44,7 +44,7 @@ body {
     /* box-shadow: 0px 0px 10px 0px #464646; */
 }
 
-.btn-cv{
+.btn-cv {
     box-sizing: border-box;
     background-color: #ffffff;
     font-weight: bold;
@@ -55,15 +55,13 @@ body {
     margin-right: 2px;
 }
 
-.btn-cv:hover{
+.btn-cv:hover {
     /* background-color: #388ecc; */
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.social-container {
-   
-}
+.social-container {}
 
 .btn-social {
     background-color: #ffffff;
@@ -170,7 +168,7 @@ nav li a {
 
 .banner-title {
     font-size: 85px;
-    font-weight: 00;
+    font-weight: 700;
 
 }
 
@@ -255,7 +253,7 @@ main section {
 
 .skill:hover {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.2);
-    transform: scale(1.1);
+    transform: scale(1.02);
 
 }
 
@@ -329,5 +327,77 @@ footer textarea {
 
 footer textarea {
     height: 150px;
+}
+
+/* Responsive Media Query */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+ 
+    .header{
+        background-image: none;
+
+    }
+
+    .banner-profile{
+        width: calc(100% - 40px);
+    }
+
+    .skills-container,
+    .resume-container,
+    footer, .about-items,
+    .banner, nav, nav > ul {
+        flex-direction: column;
+        margin: 0 auto;
+
+
+    }
+
+    .banner-content{
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .banner-title{
+        text-align: center;
+        
+    }
+
+    nav > ul{
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .skill,
+    .resume-container,
+    footer {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+    .resume-container, footer, .about {
+        padding: 20px;
+    }
+
+    footer{
+        width: 90%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+       width: calc(100% - 40px);
+       /* width: 70%; */
+
+    }
 }
 
